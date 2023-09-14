@@ -1,89 +1,327 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="backblavk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--header hero-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--texta alaig-->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../assets/CSS/main.css">
     <title>Document</title>
 </head>
+<!--https://codepen.io/allan-medina/pen/yLVLvGK-->
 
-<body>
+<body class="backblavk">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
-            <img src="assets/img/OIG.jpeg" alt="Logo" width="80" height="80" class="d-inline-block align-top">
-
-            <!--src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/0022/4736/brand.gif?itok=QRK3Br9L" -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <img src="../assets/img/OIG.jpeg" alt="Logo" width="80" height="80" class="d-inline-block align-top">
             <a class="navbar-brand" href="#"><img height="100" src="/HTML/Carpeta2/assets/imagenes/logo.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#"><img src="assets/img/work-from-home.png" alt="" height="30"> Inicio
-                            <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#"><img src="../assets/img/work-from-home.png" alt="" height="30">
+                            Inicio <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
-
-
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <ul class="navbar-nav mr-auto">
-                </ul>
-                <ul class="navbar-nav mr-auto">
-
-                </ul>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="html/Acerca_de.html"><img src="assets/img/acerca-de.png" alt=""
-                                height="30"> About Us<span class="sr-only">(current)</span></a>
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit"> <img src="../assets/img/www.png"
+                            alt="" height="30"></button>
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../html/perfil.html"><img src="../assets/img/hombre.png" alt=""
+                                height="30"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/"><img src="../assets/img/configuraciones.png" alt=""
+                                height="30"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="html/reproduccion.html"><img
+                                src="../assets/img/reproduce-el-video.png" alt="" height="30"></a>
                     </li>
                 </ul>
-
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="html/login.html"> <img src="assets/img/iniciar-sesion.png" alt=""
-                                height="30">
-                            Iniciar sesion <span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="html/registro.html"><img src="assets/img/anadir-cuenta.png" alt=""
-                                height="30"> Crear
-                            una cuenta<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-
             </div>
         </nav>
-
-
     </header>
+    <!-- muestra de videos -->
+    <section class="secao_destaque">
+        <div class="container">
+            <figure class="secao_destaque_imagem_destaque"><img src="https://i.postimg.cc/Sxzkj0qd/yesterday.png"
+                    alt="FILMES ONTEM DESTAQUE"></figure>
+            <article class="secao_descricao_destaque">
+                <h1>En demanda</h1>
+                <p></p>
+            </article>
+            <div class="secao_assistir_saiba_mais">
+                <a href="#">Empezar</a>
+                <a href="#">Guardar</a>
+            </div>
+        </div>
+    </section>
+    <section class="secao_lista_filmes">
+        <div class="container">
+            <h2>EM ALTA</h2>
+            <ul class="em_alta">
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/ydZzYtR9/o-mar-da-tranquilidade.png"
+                            alt="O MAR DA TRANQUILIDADE">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/G22H7cZR/MAE-X-ANDROIDS.png" alt="MÃE VS ANDROIDES">
+                        <figcaption>Filme 2</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/X78XbB4W/EMILI-EM-PARIS.png" alt="EMILI EM PARIS">
+                        <figcaption>Filme 3</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/3xq88gqs/MEU-NAMORADO-UM-ZUMBI.png"
+                            alt="MEU NAMORADO É UM ZUMBI">
+                        <figcaption>Filme 4</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="secao_lista_filmes">
+        <div class="container">
+            <h2>CONTINUAR ASSISTINDO</h2>
+            <ul class="continuar_assistindo">
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/NF88YGfn/THE-WITCHER.png" alt="THE WITCHER">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/bJ9dwZk1/THE-WALKING-DEAD.png" alt="THE WALKING DEAD">
+                        <figcaption>Filme 2</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/PxXTK2v8/O-RESGATE-DO-SOLDADO-RYAN.png"
+                            alt="O RESGATE DO SOLDADO RYAN">
+                        <figcaption>Filme 3</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/J7JCJf2d/DAWSON-S-CREEK.png" alt="DAWSON'S CREEK">
+                        <figcaption>Filme 4</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="secao_lista_filmes">
+        <div class="container">
+            <h2>CONTINUAR ASSISTINDO</h2>
+            <ul class="continuar_assistindo">
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/NF88YGfn/THE-WITCHER.png" alt="THE WITCHER">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/bJ9dwZk1/THE-WALKING-DEAD.png" alt="THE WALKING DEAD">
+                        <figcaption>Filme 2</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/PxXTK2v8/O-RESGATE-DO-SOLDADO-RYAN.png"
+                            alt="O RESGATE DO SOLDADO RYAN">
+                        <figcaption>Filme 3</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/J7JCJf2d/DAWSON-S-CREEK.png" alt="DAWSON'S CREEK">
+                        <figcaption>Filme 4</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="secao_lista_filmes">
+        <div class="container">
+            <h2>CONTINUAR ASSISTINDO</h2>
+            <ul class="continuar_assistindo">
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/NF88YGfn/THE-WITCHER.png" alt="THE WITCHER">
+                        <figcaption>Filme 1</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/bJ9dwZk1/THE-WALKING-DEAD.png" alt="THE WALKING DEAD">
+                        <figcaption>Filme 2</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/PxXTK2v8/O-RESGATE-DO-SOLDADO-RYAN.png"
+                            alt="O RESGATE DO SOLDADO RYAN">
+                        <figcaption>Filme 3</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="https://i.postimg.cc/J7JCJf2d/DAWSON-S-CREEK.png" alt="DAWSON'S CREEK">
+                        <figcaption>Filme 4</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>UBICACION</h4>
+                                <span>Avenida Tecnologico</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Contactanos</h4>
+                                <span>+52 4111549487</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Correo</h4>
+                                <span>deco.tecno@itcelaya.edu.mx</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="../assets/img/OIG.jpeg" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>"Empoderamos tu potencial a través del aprendizaje en línea, impulsando tu éxito y
+                                    transformando tu futuro, porque el conocimiento no tiene límites ni fronteras. Únete
+                                    a nuestra comunidad de estudiantes y descubre un mundo de posibilidades educativas
+                                    desde la comodidad de tu hogar."</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><img src="../assets/img/facebook.png" alt="Logo" width="80" height="80"
+                                        class="d-inline-block align-top"></a>
+                                <a href="#"><img src="../assets/img/gorjeo.png" alt="Logo" width="80" height="80"
+                                        class="d-inline-block align-top"></a>
+                                <a href="#"><img src="../assets/img/instagram.png" alt="Logo" width="80" height="80"
+                                        class="d-inline-block align-top"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="/index.html">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>SIGUENOS</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>No olvides que este es tu santuario de conocimiento y siempre serás bienvenido</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a
+                                    href="https://codepen.io/anupkumar92/">Anup</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="../index.html">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 
 </html>
