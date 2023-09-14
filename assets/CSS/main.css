@@ -3,7 +3,10 @@
     background: linear-gradient(to bottom, hsl(0, 0%, 100%), rgb(12, 5, 5));
 }
 
-
+.imagen-redondeada {
+    border-radius: 50%; /* Un valor del 50% hace que la imagen tenga bordes completamente redondeados, convirtiéndola en un círculo si la imagen es cuadrada. Puedes ajustar este valor según tus preferencias. */
+  }
+  
 
 
 

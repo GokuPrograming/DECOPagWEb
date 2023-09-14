@@ -5,61 +5,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/CSS/pefil.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+
+
     <title>Document</title>
 </head>
 
 <body>
     <div class="container">
-        <header class="perfil">
-            <img class="perfil-foto" src="https://avatars.githubusercontent.com/u/79182711?v=4" />
-            <div class="titulo">
-                <h1>Janaína Scher</h1>
-                <h3>Estudante de Desenvolvimento Web</h3>
-                <p>#imersaodev #alura</p>
-                <div class="container-icones">
-                    <a href="https://codepen.io/janascher" title="Codepen" target="_blank" class="icones-perfil"><i
-                            class="devicon-codepen-plain"></i></a>
-                    <a href="https://github.com/janascher" title="GitHub" target="_blank" class="icones-perfil"><i
-                            class="devicon-github-original"></i></a>
-                    <a href="https://www.linkedin.com/in/janainascher/" title="LinkedIn" target="_blank"
-                        class="icones-perfil"><i class="devicon-linkedin-plain"></i></a>
-                    <a href="https://www.twitter.com/janascher" title="Twitter" target="_blank" class="icones-perfil"><i
-                            class="devicon-twitter-original"></i></a>
+        <header class="cabecalho">
+            <div class="perfil">
+                <img class="perfil-foto" src="https://avatars.githubusercontent.com/u/90622662?v=4" />
+                <div class="titulo">
+                    <h1>Elisabete Resende</h1>
+                    <h3> Software Developer</h3>
                 </div>
+            </div>
+            <div class="tema">
+                <button onclick="mudaTema()">Theme</button>
             </div>
         </header>
 
-        <main class="projetos">
-            <div class="container-projetos">
-                <h3>Meus Projetos</h3>
-                <p class="texto-projetos">Desenvolvidos durante a Imersão Dev da Alura</p>
-                <ol>
-                    <li><a href="https://codepen.io/janascher/full/XWggxRy" target="_blank"> 🔢 Calculadora de
-                            Médias</a></li>
-                    <li><a href="https://codepen.io/janascher/full/eYREmVW" target="_blank"> ❄️ Conversor de
-                            Temperatura</a></li>
-                    <li><a href="https://codepen.io/janascher/full/dyRVeed" target="_blank"> 💸 Conversor de Moeda</a>
-                    </li>
-                    <li><a href="https://codepen.io/janascher/full/GREOPZM" target="_blank"> 🔮 Adivinhe Um Número</a>
-                    </li>
-                    <li><a href="https://codepen.io/janascher/full/BaZYpYz" target="_blank"> 🎬 AnimeFlix</a></li>
-                    <li><a href="https://codepen.io/janascher/full/ZEyoRpP" target="_blank"> 🎖️ Tabela de
-                            Classificação</a></li>
-                    <li><a href="https://codepen.io/janascher/full/PojdeEg" target="_blank"> 📑 Certificado</a></li>
-                </ol>
-                <!--<ul>
-              <li><a href="https://codepen.io/janascher/full/dyRVeed" target="_blank">❄️ Conversor de Temperatura</a></li>
-              <li><a href="https://codepen.io/janascher/full/dyRVeed" target="_blank">💰 Conversor de Moeda</a></li>
-              <li><a href="https://codepen.io/janascher/full/XWggxRy" target="_blank">🔢 Calculadora da Média das Notas</a></li>
-              <li><a href="https://codepen.io/janascher/full/GREOPZM" target="_blank">🔮 Adivinhe Um Número</a></li>
-              <li><a href="https://codepen.io/janascher/full/BaZYpYz" target="_blank">🍿 AnimeFlix</a></li>
-              <li><a href="" target="_blank">📑 Certificado</a></li>
-            </ul>-->
+        <main class="Projetos">
+            <ul class="projetos-titulo">Projects</ul>
+            <li class="projetos-item">
+                <p>🎬 Films</p>
+            </li>
+     
 
-            </div>
+            <li class="projetos-item">
+                <p>🔮 Mentalist</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="mdwqvaN" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/mdwqvaN">
+                        Mentalista </a> by elisaresend (<a href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+            <li class="projetos-item">
+                <p>🥇Classification</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="WNOJzPr" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/WNOJzPr">
+                        Tabela de classificação</a> by elisaresend (<a
+                        href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+            <li class="projetos-item">
+                <p>🎴 Trump Zodiac</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="LYLJQYX" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/LYLJQYX">
+                        Zodíaco trunfo</a> by elisaresend (<a href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+            <li class="projetos-item">
+                <p>⚜️ Mangá: Sailor moon</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="bGRLePR" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/bGRLePR">
+                        Modo lista</a> by elisaresend (<a href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+            <li class="projetos-item">
+                <p>🧮 Media Calculator</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="wvePQBz" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/wvePQBz">
+                        Calculadora de média</a> by elisaresend (<a
+                        href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+            <li class="projetos-item">
+                <p>⚖️ Currency Converter</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="VwWrVPw" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/VwWrVPw">
+                        Conversor de moedas </a> by elisaresend (<a
+                        href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+            <li class="projetos-item">
+                <p>❔ Personality of the day</p>
+            </li>
+            <p class="codepen" data-height="300" data-theme-id="dark" data-default-tab="html,result"
+                data-slug-hash="NWXwzrX" data-user="elisaresend"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/elisaresend/pen/NWXwzrX">
+                        Personality of the day </a> by elisaresend (<a
+                        href="https://codepen.io/elisaresend">@elisaresend</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://codepen.io/elisaresend/pen/NWXwzrX?editors=0010"></script>
+
+
+
         </main>
     </div>
+
 </body>
 
 </html>

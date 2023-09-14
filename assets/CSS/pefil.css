@@ -1,34 +1,26 @@
-html {
-    background-image: linear-gradient(to right, white, black);
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap");
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-    font-family: "Fira Code", monospace;
+    background: linear-gradient(238.85deg, #fdfdfd 27.26%, #0a0a0a 96.03%);
+    font-family: 'Roboto', sans-serif;
 }
 
-/* HEADER */
 .container {
-    background: #ecf4ff;
-    color: #1c1c1c;
-    margin: 64px auto;
-    box-shadow: 6px 6px 6px #0e1d2f;
+    background: linear-gradient(238.85deg, #fdfdfd 27.26%, #0a0a0a 96.03%);
+    color: 1C1C1C;
+    margin: 64px;
     border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
     padding: 64px;
-    max-width: 960px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
 }
 
 .perfil {
     display: flex;
-    align-items: center;
 }
 
 .perfil-foto {
@@ -51,64 +43,58 @@ body {
     font-size: 24px;
 }
 
-.titulo p {
-    color: #be7f93;
-    font-size: 18px;
-    font-weight: 400;
-    margin-bottom: 8px;
-}
-
-/* ÍCONES */
-.icones-perfil {
-    margin: 3px;
+.tema button {
+    align-self: flex-end;
     font-size: 24px;
-    text-decoration: none;
-    color: #0084a2;
-    transition: color 0.2s;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 100px;
+    background: linear-gradient(238.85deg, #fdfdfd 27.26%, #0a0a0a 96.03%);
 }
 
-.icones-perfil:hover {
-    color: #9d91ab;
-}
-
-/* PROJETOS */
-.projetos {
+.Projetos {
     display: flex;
     flex-direction: column;
-    background: #cad7e6;
+    background: linear-gradient(238.85deg, #e4a7a7 27.26%, #e27d0a 96.03%);
+    margin-top: 32px;
+    padding: 32px;
     box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
     border-radius: 20px;
-    margin: 34px;
 }
 
-.container-projetos {
-    margin-left: 20px;
-    padding: 18px;
-}
-
-.container-projetos h3 {
-    color: #1c1c1c;
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-
-.container-projetos p {
-    /*color: #1c1c1c;*/
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-.container-projetos li {
-    margin-bottom: 10px;
+.projetos-titulo {
     list-style: none;
+    font-weight: 700;
+    font-size: 36px;
 }
 
-.container-projetos a {
-    font-size: 18px;
+.projetos-item {
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+
+.projetos-item a {
+    color: #1C1C1C;
     text-decoration: none;
-    color: #1c1c1c;
 }
 
-.container-projetos a:hover {
-    color: #0084a2;
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+    background: #333439;
+    color: #F6F6F6;
+}
+
+.dark .Projetos {
+    color: #1C1C1C;
+}
+
+.dark .tema button {
+    background: #1C1C1C;
+    color: #ffffff;
+    border: 2px solid #f7f7f7;
 }

@@ -1,18 +1,22 @@
 /* BASIC */
 
 html{
-    background-color: color-mix(in srgb, color percentage, color percentage);
+    background-image: linear-gradient(to right, white, black);
 }
 
 body {
     
-   /* background-image: linear-gradient(white, black);*/
-   background-image: linear-gradient(to right, white, black);
+    background-image: linear-gradient(white, black);
+
     font-family: "Poppins", sans-serif;
     height: 100vh;
  
 
 }
+.imagen-redondeada {
+    border-radius: 50%; /* Un valor del 50% hace que la imagen tenga bordes completamente redondeados, convirtiéndola en un círculo si la imagen es cuadrada. Puedes ajustar este valor según tus preferencias. */
+  }
+  
 
 a {
     color: #ff5e14;

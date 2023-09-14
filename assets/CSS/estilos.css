@@ -3,7 +3,10 @@ html {
 }
 
 /*nvar*/
-
+.imagen-redondeada {
+    border-radius: 50%; /* Un valor del 50% hace que la imagen tenga bordes completamente redondeados, convirtiéndola en un círculo si la imagen es cuadrada. Puedes ajustar este valor según tus preferencias. */
+  }
+  
 /*header */
 
 .LETRA {
