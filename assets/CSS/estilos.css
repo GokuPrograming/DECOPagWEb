@@ -9,6 +9,9 @@ html {
   
 /*header */
 
+.blackText{
+color: #000000;
+}
 .LETRA {
     color: white;
 }
@@ -118,6 +121,11 @@ html {
     color: oldlace;
     font-size: 20px;
 }
+.how-section1 .blackText {
+    color: #000000;
+    font-size: 20px;
+}
+
 
 .how-section1 .row {
     margin-top: 10%;
