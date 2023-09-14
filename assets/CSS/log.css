@@ -1,7 +1,7 @@
 /* BASIC */
 
 html {
-    background-color: white;
+    background: linear-gradient(to bottom, hsl(0, 0%, 100%), rgb(12, 5, 5));
 }
 
 body {
@@ -10,7 +10,7 @@ body {
 }
 
 a {
-    color:  #ff5e14;
+    color: #ff5e14;
     display: inline-block;
     text-decoration: none;
     font-weight: 400;
@@ -56,7 +56,7 @@ h2 {
 
 #formFooter {
     background-color: #f6f6f6;
-    border-top: 1px solid  #ff5e14;
+    border-top: 1px solid #ff5e14;
     padding: 25px;
     text-align: center;
     -webkit-border-radius: 0 0 10px 10px;
@@ -68,12 +68,12 @@ h2 {
 /* TABS */
 
 h2.inactive {
-    color:  #ff5e14;
+    color: #ff5e14;
 }
 
 h2.active {
     color: #0d0d0d;
-    border-bottom: 2px solid  #ff5e14;
+    border-bottom: 2px solid #ff5e14;
 }
 
 
@@ -83,7 +83,7 @@ h2.active {
 input[type=button],
 input[type=submit],
 input[type=reset] {
-    background-color:  #ff5e14;
+    background-color: #ff5e14;
     border: none;
     color: white;
     padding: 15px 80px;
@@ -92,8 +92,8 @@ input[type=reset] {
     display: inline-block;
     text-transform: uppercase;
     font-size: 13px;
-    -webkit-box-shadow: 0 10px 30px 0  #ff5e14;
-    box-shadow: 0 10px 30px 0  #ff5e14;
+    -webkit-box-shadow: 0 10px 30px 0 #ff5e14;
+    box-shadow: 0 10px 30px 0 #ff5e14;
     -webkit-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
     margin: 5px 20px 40px 20px;
@@ -107,7 +107,7 @@ input[type=reset] {
 input[type=button]:hover,
 input[type=submit]:hover,
 input[type=reset]:hover {
-    background-color:  #ff5e14;
+    background-color: #ff5e14;
 }
 
 input[type=button]:active,
@@ -143,7 +143,7 @@ input[type=text] {
 
 input[type=text]:focus {
     background-color: #fff;
-    border-bottom: 2px solid  #ff5e14;
+    border-bottom: 2px solid #ff5e14;
 }
 
 input[type=text]:placeholder {
@@ -283,7 +283,7 @@ input[type=text]:placeholder {
 }
 
 h1 {
-    color:  #ff5e14;
+    color: #ff5e14;
 }
 
 /* OTHERS */

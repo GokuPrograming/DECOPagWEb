@@ -6,6 +6,9 @@ html {
 
 /*header */
 
+.LETRA {
+    color: white;
+}
 
 .carousel-caption {
     top: 33%;
@@ -99,10 +102,11 @@ html {
 }
 
 .how-section1 h4 {
-    color:  #ff5e14;
+    color: #ff5e14;
     font-weight: bold;
     font-size: 30px;
 }
+
 .how-section1 .text-muted {
     font-weight: bold;
 }
