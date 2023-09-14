@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    background: whitesmoke;
+    color: #181818;
+    overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#right {
+    flex: 1;
+}
+
+/* Sign In */
+#signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+#signin form {
+    width: 80%;
+    padding-bottom: 3rem;
+}
+
+#signin .logo {
+    margin-bottom: 8vh;
+}
+
+#signin .logo img {
+    width: 300px;
+}
+
+#signin label {
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-weight: 500;
+}
+
+#signin .text-input {
+    margin-bottom: 1.3rem;
+    width: 100%;
+    border-radius: 55px;
+    border: 1px solid #f96816;
+    color: black;
+    padding: 0.5rem 1rem;
+    line-height: 1.3rem;
+}
+
+#signin .primary-btn {
+    width: 100%;
+}
+
+#signin .secondary-btn,
+.or,
+.links {
+    width: 60%;
+}
+
+#signin .links a {
+    display: block;
+    color: #181818;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#signin .or {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+    align-items: center;
+}
+
+#signin .or .bar {
+    flex: auto;
+    border: none;
+    height: 1px;
+    background: #181818;
+}
+
+#signin .or span {
+    color: #181818;
+    padding: 0 0.8rem;
+}
+
+/* Showcase */
+#showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/fondo.jpeg') no-repeat center center / cover;
+    height: 100vh;
+    text-align: center;
+}
+
+#showcase .showcase-text {
+    border: #f96816;
+    font-size: 3rem;
+    width: 100%;
+    color: #181818;
+    margin-bottom: 1.5rem;
+    border: 2px solid #f96816;
+    background-color: #f96816;
+    border-radius: 55px;
+
+}
+
+#showcase .secondary-btn {
+    width: 60%;
+    margin: auto;
+    border: #f96816;
+    
+}
+
+
+
+/* Footer */
+#main-footer {
+    color: #181818;
+    text-align: center;
+    font-size: 0.8rem;
+    max-width: 80%;
+    padding-top: 5rem;
+}
+
+#main-footer a {
+    color: #181818;
+    text-decoration: underline;
+}
+
+/* Button */
+.primary-btn {
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    font-weight: 500;
+    background: #f96816;
+    color: #181818;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.primary-btn:hover {
+    background-color: color-mix(in lch, plum, pink);
+}
+
+.secondary-btn {
+    padding: 0.7rem 1rem;
+    height: 2.7rem;
+    display: block;
+    border: 1px solid transparent;
+    border-radius: 365px;
+    font-weight: 500;
+    background: none;
+    color: #181818;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.5s;
+    position: relative;
+    /* Agregamos posición relativa para manipular el pseudo-elemento */
+}
+
+.secondary-btn::before {
+    /* Pseudo-elemento para crear el efecto 3D */
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #181818;
+    border-radius: 365px;
+    transform: scale(1);
+    transition: all 0.5s;
+    z-index: -1;
+    /* Enviamos el pseudo-elemento detrás del botón */
+}
+
+.secondary-btn:hover::before {
+    border-color: #f96816;
+    transform: scale(1.1);
+    /* Aumenta el tamaño del pseudo-elemento para dar efecto 3D */
+}
+
+.secondary-btn:hover {
+    color: #f96816;
+}
+
+
+/* Media Queries */
+@media (min-width: 1200px) {
+    #left {
+        flex: 4;
+    }
+
+    #right {
+        flex: 6;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow: auto;
+    }
+
+    #right {
+        display: none;
+    }
+
+    #left {
+        justify-content: start;
+        margin-top: 4vh;
+    }
+
+    #signin .logo {
+        margin-bottom: 2vh;
+    }
+
+    #signin .text-input {
+        margin-bottom: 0.7rem;
+    }
+
+    #main-footer {
+        padding-top: 1rem;
+    }
+}
+
+
+/*letras*/
