@@ -6,8 +6,9 @@
 }
 
 .imagen-redondeada {
-    border-radius: 50%; /* Un valor del 50% hace que la imagen tenga bordes completamente redondeados, convirtiéndola en un círculo si la imagen es cuadrada. Puedes ajustar este valor según tus preferencias. */
-  }
+    border-radius: 50%;
+    /* Un valor del 50% hace que la imagen tenga bordes completamente redondeados, convirtiéndola en un círculo si la imagen es cuadrada. Puedes ajustar este valor según tus preferencias. */
+}
 
 body {
     background: url("../img/fondoSKUll.jpeg") no-repeat center top / cover;
@@ -17,18 +18,20 @@ body {
     text-align: center;
 }
 
+
+
 h1 {
-    color: whitesmoke;
+    color: white;
     font-family: 'Exo 2', sans-serif;
-    font-size: 46px;
-    font-weight: 900;
+    font-size: xx-large;
+
     text-transform: uppercase;
 }
 
 h2 {
     color: whitesmoke;
     font-family: 'Exo 2', sans-serif;
-    font-size: 35px;
+    font-size: 45px;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -39,7 +42,7 @@ p {
     padding: 0;
     color: whitesmoke;
     font-family: OpenSans;
-    font-size: 14px;
+    font-size: 25px;
     font-weight: 300;
     line-height: 22px;
 }
@@ -481,3 +484,78 @@ ul {
     font-size: 14px;
     color: #878787;
 }
+
+/*valores*/
+
+/* Estilos para encabezado principal */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Serif', serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Efecto de sombra */
+    transform: perspective(1px) scale(1.02);
+    /* Efecto de profundidad */
+}
+
+/* Estilos para subencabezado */
+/* Estilos para la sección 3D */
+.seccion-3d {
+    text-align: center;
+    background-color: #333;
+    /* Cambia el color de fondo según tus preferencias */
+    padding: 20px;
+    border-radius: 10px;
+    /* Añade esquinas redondeadas para resaltar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Efecto de sombra 3D */
+    transform: perspective(10px) rotateX(.0001deg);
+    /* Efecto de inclinación en el eje X */
+    transition: transform 0.3s ease-in-out;
+    /* Transición suave */
+}
+
+/* Estilos para encabezado principal dentro de la sección */
+.seccion-3d h1 {
+    font-size: 40px;
+    font-family: 'Serif', serif;
+    font-weight: bold;
+    color: #fff;
+    /* Cambia el color del texto según tus preferencias */
+    background-color: #000000;
+    padding: 30px;
+}
+
+/* Estilos para subtítulo dentro de la sección */
+.seccion-3d h2 {
+    font-size: 25px;
+    font-family: 'Serif', serif;
+    color: #fff;
+    padding: 40px;
+    background-color: rgb(54, 51, 51);
+}
+
+/* Estilos para párrafos dentro de la sección */
+.seccion-3d p {
+    font-family: 'Sans-Serif', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: #fff;
+    background-color: #3c3c3c;
+    padding: 40px;
+
+}
+
+/* Efecto hover para destacar aún más la sección */
+.seccion-3d:hover {
+    transform: perspective(3px) rotateX(.01deg);
+    /* Aumenta la inclinación al pasar el mouse */
+}
+
+
+
+.backlok {
+    background-color: #373636;
+}
+
